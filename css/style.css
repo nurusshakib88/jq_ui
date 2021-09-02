@@ -1,0 +1,178 @@
+body {
+	background-color: lightyellow;
+
+}
+
+header {
+	background-color: #212529;
+}
+
+
+.logo {
+	font-size: 30px;
+	font-weight: 600;
+	color: lightyellow;
+}
+
+.logo span {
+	font-size: 20px;
+	color: orangered;
+	display: block;
+
+}
+
+
+.nav-item .c_active {
+	color: orangered !important;
+}
+
+
+.menu ul li a {
+	margin-right: 40px;
+	font-size: 20px;
+	font-weight: 600;
+	color: lightyellow !important;
+}
+.menu ul li a:hover {
+	color: orangered !important;
+}
+
+
+.practice {
+	margin: 50px 0;
+	font-size: 50px;
+	text-align: center;
+	padding: 10px;
+	color: lightyellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+button {
+	margin: 0 20px;
+	width: 120px;
+	height: 50px;
+	font-size: 18px !important;
+	font-weight: 600 !important;
+}
+
+button:focus {
+	box-shadow: none !important;
+}
+
+.flip, .clickme {
+	margin: 0;
+	background-color: darkcyan;
+	font-size: 25px;
+	font-weight: 700;
+	color: whitesmoke;
+	padding: 20px;
+	cursor: pointer;
+}
+
+
+.panel {
+	margin: 0;
+	background-color: skyblue;
+	font-size: 20px;
+	padding: 20px;
+	display: none;
+}
+
+
+
+.flip2 {
+	margin: 0;
+	background-color: darkcyan;
+	font-size: 25px;
+	font-weight: 700;
+	color: whitesmoke;
+	padding: 20px;
+	cursor: pointer;
+}
+
+
+.panel2 {
+	margin: 0;
+	background-color: skyblue;
+	font-size: 20px;
+	padding: 20px;
+}
+
+
+
+.box {	
+	position: relative;
+	left: 0;
+	width: 200px;
+	height: 100px;
+	background-color: skyblue;
+}
+
+
+
+
+/*interactions start*/
+
+#draggable, #draggable2, #resizable {
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: whitesmoke;
+	background-color: darkcyan;
+
+}
+
+.droppable {
+	overflow: hidden;
+}
+
+#draggable2 {
+	float: left;
+}
+
+#droppable {
+	width: 170px;
+	height: 170px;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+}
+
+
+
+
+#selectable .ui-selecting , #selectable .ui-selected {
+	background: orangered;
+	color: white;
+	transition: .3s;
+}
+
+#selectable, #sortable  {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 60%;
+}
+
+#selectable li, #sortable li  {
+	margin: 3px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	height: 40px;
+	padding: 0 10px;
+}
+
+/*interactions end*/
+
+
+
+/*widgets srtart*/
+
+
+#disable, #destroy, #getvalue, #setvalue {
+	width: 200px;
+}
